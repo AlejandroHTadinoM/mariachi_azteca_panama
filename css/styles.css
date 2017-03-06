@@ -3,7 +3,15 @@
 }
 
 .setcion__header {
-    background: linear-gradient(rgba(19, 153, 53, .6), rgba(250, 250, 250, .9), rgba(209, 31, 31, .6)), url("/img/banner-bg.jpg");
+    background: linear-gradient(
+        90deg, 
+      rgba(19, 153, 53, .4),
+      rgba(250, 250, 250, .4),
+      rgba(250, 250, 250, .4),
+      rgba(209, 31, 31, .4)
+      ), 
+        url("/img/banner-bg.jpg");
+
     background-attachment: fixed;
     -webkit-background-size: cover;
     background-size: cover;
@@ -13,6 +21,7 @@
 .navbar {
     position: fixed;
     width: 100%;
+    z-index: 10;
 }
 
 .navbar .nav {
@@ -30,4 +39,21 @@
 .navbar .nav li a {
     color: #444;
     text-decoration: none;
+}
+
+.page-title {
+    padding: 2rem;
+    border-bottom: 1rem solid white;
+    text-align: center;
+    margin-top: 30vh;
+    color: white;
+    font-family: 'Mrs Sheppards', cursive;
+}
+
+.cta {
+    text-align: center;
+}
+
+.cta > .button {
+    background-color: white;
 }
