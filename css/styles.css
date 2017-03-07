@@ -1,3 +1,7 @@
+.section--title {
+    text-align: center;
+}
+
 .spacer {
     height: 150vh;
 }
@@ -62,8 +66,25 @@
 
 .service:hover {
    transform: scale(1.1);
+   background-color: #FAFAFA
 }
 
 .service--title {
     text-align: center;
+}
+
+.section__media {
+    padding-top: 100px;
+}
+
+.video--description {
+    margin-top: 12px;
+}
+
+.media--img {
+    transition: all .5s ease-in-out;
+}
+
+.media--img:hover {
+    transform: scale(2.2);
 }
