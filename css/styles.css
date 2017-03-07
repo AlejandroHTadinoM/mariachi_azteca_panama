@@ -53,5 +53,17 @@
 }
 
 .section__about {
-    background-color: pink;
+    padding-top: 100px;
+}
+
+.service {
+    transition: all .5s ease-in-out;
+}
+
+.service:hover {
+   transform: scale(1.2);
+}
+
+.service--title {
+    text-align: center;
 }
