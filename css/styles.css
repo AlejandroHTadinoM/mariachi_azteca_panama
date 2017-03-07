@@ -5,12 +5,12 @@
 .setcion__header {
     background: linear-gradient(
         90deg, 
-      rgba(19, 153, 53, .4),
-      rgba(250, 250, 250, .4),
-      rgba(250, 250, 250, .4),
-      rgba(209, 31, 31, .4)
+      rgba(19, 153, 53, .3),
+      rgba(250, 250, 250, .3),
+      rgba(250, 250, 250, .3),
+      rgba(209, 31, 31, .3)
       ), 
-        url("/img/banner-bg.jpg");
+        url("/img/banner-bg--bw.jpg");
 
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -41,19 +41,17 @@
     text-decoration: none;
 }
 
+.header-title {
+    text-align: center;
+    color: #FAFAFA;
+}
+
 .page-title {
-    padding: 2rem;
-    border-bottom: 1rem solid white;
-    text-align: center;
-    margin-top: 30vh;
-    color: white;
+    margin-top: 25%;
     font-family: 'Mrs Sheppards', cursive;
+    font-size: 9rem;
 }
 
-.cta {
-    text-align: center;
-}
-
-.cta > .button {
-    background-color: white;
+.section__about {
+    background-color: pink;
 }
