@@ -1,9 +1,6 @@
 .section--title {
     text-align: center;
-}
-
-.spacer {
-    height: 150vh;
+    margin-top: 120px;
 }
 
 .setcion__header {
@@ -54,10 +51,7 @@
     margin-top: 25%;
     font-family: 'Mrs Sheppards', cursive;
     font-size: 9rem;
-}
-
-.section__about {
-    padding-top: 100px;
+    text-shadow: 2px 2px 4px #444;
 }
 
 .service {
@@ -69,12 +63,28 @@
    background-color: #FAFAFA
 }
 
-.service--title {
-    text-align: center;
+.service--description {
+    transition: all .5s ease-in-out;
+    padding: 1rem;
+    text-align: justify;
+
 }
 
-.section__media {
-    padding-top: 100px;
+#service-1:hover {
+    background-color: rgba(19, 153, 53, .3);
+
+}
+
+#service-2:hover {
+    color: #333;
+}
+
+#service-3:hover {
+    background-color: rgba(209, 31, 31, .3);
+}
+
+.service--title {
+    text-align: center;
 }
 
 .video--description {
@@ -86,5 +96,31 @@
 }
 
 .media--img:hover {
-    transform: scale(2.2);
+    transform: scale(4.1);
+    box-shadow: 0 4px 6px 0px rgba(0, 0, 0, .6);
+}
+
+.section__footer {
+    width: 100%;
+    height: 320px;
+}
+
+footer {
+    background-color: darkred;
+    vertical-align: middle;
+}
+
+figure {
+    position: relative;
+    overflow: hidden;
+}
+
+figure > img {
+    opacity: 0;
+}
+
+figure > figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
